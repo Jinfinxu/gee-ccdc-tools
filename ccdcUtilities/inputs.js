@@ -19,7 +19,7 @@ var ccdcUtils = require('users/parevalo_bu/gee-ccdc-tools:ccdcUtilities/ccdc.js'
 */
 function getLandsat(options) {
   var start = (options && options.start) || '1980-01-01'
-  var end = (options && options.end) || '2021-01-01'
+  var end = (options && options.end) || '2022-01-01'
   var startDoy = (options && options.startDOY) || 1
   var endDoy = (options && options.endDOY) || 366
   var region = (options && options.region) || null
